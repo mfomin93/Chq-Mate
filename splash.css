@@ -1,4 +1,4 @@
-html,.page {
+html, body, .page {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -11,10 +11,6 @@ html,.page {
     overflow: hidden; 
     background: rgb(28, 27, 34);
   }
-
-  body {
-    margin: 0;
-}
 
 
 
@@ -32,8 +28,6 @@ html,.page {
     background-size: cover;
     border-bottom: 2px solid rgba(0, 0, 0, 0.2);
     text-align: center;
-    
-    
 } 
 
 /* .Quote{
@@ -41,10 +35,9 @@ html,.page {
 
 }  */
 
- #gif-box {
-
-  
-  
+#gif-box {
+  background: url('https://steamuserimages-a.akamaihd.net/ugc/924805627747624904/2DBF60E8C96C13F0E52A8916469428CA3896847B/')no-repeat;
+	/* background: url('https://i.gifer.com/GuBX.gif')no-repeat; */
 	width: 475px;
 	height: 360px;
 	padding: 125px 0;
@@ -57,64 +50,30 @@ html,.page {
     right: -55%;
     left: 0;
     margin: auto;
-    text-align: right;
-}
-#bottom{
-background: url('https://steamuserimages-a.akamaihd.net/ugc/924805627747624904/2DBF60E8C96C13F0E52A8916469428CA3896847B/')no-repeat;
-/* background: url('https://i.gifer.com/GuBX.gif')no-repeat; */
-width: 475px;
-height: 360px;
-padding: 125px 0;
-/* margin-top: 80px;
-margin-left: 700px; */
-background-position: center;
-position: absolute;
-  top: -10%;
-  bottom: -30%;
-  right: -30%;
-  left: 0;
-  margin: auto;
-  text-align: center;
-  border: 0;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  display: flex;
-
-box-shadow: 0 10px 20px lightgreen;
-}
-
-
-h3 {
-  font-family: 'Monoton', cursive;
-}
-
-h4 {
-  font-family: 'Monoton', cursive;
+    text-align: center;
+    border: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+	
+	box-shadow: 0 10px 20px lightgreen;
 }
 
 #text {
   margin-left: -1500px;
 	margin-top: -180px;
 	color: rgb(255, 255, 255);
-  text-shadow: -1px 1px 0 rgb(145, 134, 39);
-  font-family: 'Chakra Petch', sans-serif;
-}
-
-img {
-  width: 200px;
-	height: 500px;
-	padding: 125px 0;
+  text-shadow: -1px 1px 0 rgb(115, 177, 110);
+  font-family: 'Chakra Petch', sans-serif; 
 }
 
 #text2 {
-  margin-left: -1%;
-  margin-top: 230px;
+  margin-left: -1500px;
+  margin-top: 130px;
 	color: rgb(255, 255, 255);
-  text-shadow: -1px 1px 0 rgb(145, 134, 39);
+  text-shadow: -1px 1px 0 rgb(115, 177, 110);
   font-family: 'Chakra Petch', sans-serif; 
-  height: auto; padding: 15px; 
 }
 
 #logo{
@@ -122,6 +81,10 @@ img {
     background-position: center;
     
 }
+  
+  * {
+    font-family: 'open sans', 'lato', 'helvetica', sans-serif;
+  }
   
   .page {
     position: fixed;
